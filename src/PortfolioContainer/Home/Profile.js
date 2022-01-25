@@ -33,7 +33,7 @@ const Profile = () => {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Ethusiastic Dev 🧑‍💻",
+                    "Enthusiastic Dev 🧑‍💻",
                     1500,
                     "Full Stack Dev💻",
                     1500,
