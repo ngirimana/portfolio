@@ -54,7 +54,6 @@
   height: 460px;
   width: 380px;
   margin: 0 0px 0 100px;
-  
 }
 .profile-picture-background {
   height: 92%;
@@ -97,9 +96,9 @@
   }
 }
 @media only screen and (max-width: 910px) {
-    .profile-container {
-        height: 620px;
-    }
+  .profile-container {
+    height: 665px;
+  }
   .profile-picture {
     margin: 0 0 0 4px;
     height: 320px;
