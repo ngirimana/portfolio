@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import { TOTAL_SCREENS, GET_SCREEN_INDEX } from '../../../utilities/commonUtils';
 import ScrollService from '../../../utilities/ScrollServices';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -36,7 +36,7 @@ const getHeaderOptionsClass = (index) => {
 
     if (selectedScreen === index)
         classes += "selected-header-option";
-    return
+    return classes
 }
     const switchScreen = (index, screen) => {
         let screenComponent = document.getElementById(screen.screen_name);
@@ -47,12 +47,16 @@ const getHeaderOptionsClass = (index) => {
         setShowHeaderOptions(true);
 
     }
-
+ useEffect(() => {
+   return () => {
+     currentScreenSubscription.unsubscribe();
+   };
+ }, [currentScreenSubscription]);
 
     return (
         <div>
             <div
-                className='header-option'
+                className='header-container'
                 onClick={()=>setShowHeaderOptions(!showHeaderOption)}
             >
                 <div className='header-parent'>
