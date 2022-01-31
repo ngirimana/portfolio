@@ -60,7 +60,13 @@ export default function ContactMe(props) {
         setMessage("");
       }
     } catch (error) {
+      let data = {
+        name,
+        email,
+        message,
+      };
       console.log(error);
+      console.log(data)
     }
   };
 
