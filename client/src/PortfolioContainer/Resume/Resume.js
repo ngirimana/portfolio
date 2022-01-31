@@ -113,18 +113,7 @@ const Resume = (props) => {
         fromDate={"2014"}
         toDate={"2016"}
       />
-      <ResumeHeading
-        heading={"E.S NYARUTOVU, Gakenke,Rwanda"}
-        subHeading={"ORDINARY LEVEL SECONDARY SCHOOL"}
-        fromDate={"2011"}
-        toDate={"2023"}
-      />
-      <ResumeHeading
-        heading={"E.P  KARAMBO, Gakenke,Rwanda"}
-        subHeading={"PRIMARY SCHOOL"}
-        fromDate={"2005"}
-        toDate={"2010"}
-      />
+     
     </div>,
 
     /* WORK EXPERIENCE */
@@ -159,7 +148,7 @@ const Resume = (props) => {
       </div>
       <div className="experience-container">
         <ResumeHeading
-          heading={"SOMA TECHNOLOGIES INC ·"}
+          heading={"SOMA TECHNOLOGIES"}
           subHeading={"SOFTWARE ENGINEER INTERN"}
           fromDate={"Aug 2020"}
           toDate={"Jun 2021"}

@@ -91,7 +91,7 @@ export default function ContactMe(props) {
         <div className="back-form">
           <div className="img-back">
             <h4>Send Your Email Here!</h4>
-            <img src={imgBack} alt="image not found" />
+            <img src={imgBack} alt="Background not found" />
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>
@@ -110,7 +110,7 @@ export default function ContactMe(props) {
                 <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">
-                    <img src={load1} alt="image not responding" />
+                    <img src={load1} alt="Loader not responding" />
                   </b>
                 ) : (
                   ""

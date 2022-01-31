@@ -62,7 +62,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
+                      I patronized Schadrack and when He delivered, I honestly
                       fell in love with the project He is a very honest guy and
                       he delivers ontime.
                       <i className="fa fa-quote-right" />
@@ -78,7 +78,7 @@ export default function Testimonial(props) {
                         <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt" />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
                         <i className="fa fa-star" />
@@ -114,7 +114,7 @@ export default function Testimonial(props) {
                         <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt" />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
                         <i className="fa fa-star" />
@@ -149,7 +149,7 @@ export default function Testimonial(props) {
                         <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt" />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
                         <i className="fa fa-star" />
@@ -184,7 +184,7 @@ export default function Testimonial(props) {
                         <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt" />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
                         <i className="fa fa-star" />
