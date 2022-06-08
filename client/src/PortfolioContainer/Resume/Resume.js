@@ -53,52 +53,61 @@ const Resume = (props) => {
 
   //here we have
   const programmingSkillsDetails = [
+    { skill: "Java", ratingPercentage: 60 },
     { skill: "JavaScript", ratingPercentage: 85 },
+    { skill: "TypeScript", ratingPercentage: 70 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
     { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
-    { skill: "Express JS", ratingPercentage: 89 },
-    { skill: "Node JS", ratingPercentage: 89 },
+    { skill: "React Native", ratingPercentage: 65 },
+    { skill: "Express JS", ratingPercentage: 80 },
+    { skill: "Node JS", ratingPercentage: 85 },
     { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "PostgreSQL", ratingPercentage: 80 },
-    { skill: "Material-Ui", ratingPercentage: 80 },
+    { skill: "PostgreSQL", ratingPercentage: 75 },
+    { skill: "Material-Ui", ratingPercentage: 70 },
   ];
 
   const projectsDetails = [
     {
-      title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Inosio portal",
+      duration: { fromDate: " Oct 2021", toDate: "Mar 2022" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+        "Inosio is a Property Management Operations platform that facilitates efficiency and flexibility.",
+      subHeading: "Technologies Used: React TS, Material-ui,Redux-toolkit",
     },
+    // {
+    //   title: "Personal Portfolio Website",
+    //   duration: { fromDate: " Jan 2022", toDate: "Mar 2022" },
+    //   description:
+    //     "A Personal Portfolio website to showcase all my details and projects at one place.",
+    //   subHeading: "Technologies Used: React JS, Bootsrap",
+    // },
     {
-      title: "Mobile E-shop ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Shop-it ",
+      duration: { fromDate: "Jun 2021", toDate: " Aug 2021" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
-      subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
-    },
-    {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "Online ecommerce website for showcasing and selling products online with payment system integration, both Paypal and Stripe",
       subHeading:
         "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+    },
+    {
+      title: "Digpads ",
+      duration: { fromDate: "Apr 2021", toDate: " Jun 2021" },
+      description:
+        "Digpads is an digital platform dedicated to the needs of independent landlords, providing free and paid resources for landlords including advice and How To articles, a Landlord Forum for collaborating with local landlords, rental industry-focused calculators, and property management tools.",
+      subHeading:
+        "Technologies Used: MongoDB, EpressJs, ReactJs, NodeJS, ContextAPI, Material-ui,styled-components.",
     },
   ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
-      <ResumeHeading
+      {/* <ResumeHeading
         heading={"Carnegie Mellon University Africa, Rwanda"}
         subHeading={"MASTERS OF ENGINEERING IN ARTIFICIAL INTELLIGENCE"}
         fromDate={"2022"}
         toDate={"2024"}
-      />
+      /> */}
       <ResumeHeading
         heading={"University of Rwanda, Rwanda"}
         subHeading={"BACHELOR OF SCIENCE IN COMPUTER ENGINEERING"}
@@ -113,7 +122,6 @@ const Resume = (props) => {
         fromDate={"2014"}
         toDate={"2016"}
       />
-     
     </div>,
 
     /* WORK EXPERIENCE */
@@ -125,12 +133,12 @@ const Resume = (props) => {
           fromDate={"Jun 2021"}
           toDate={"Present"}
         />
-        <div className="experience-description">
+        {/* <div className="experience-description">
           <span className="resume-description-text">
             Currently working as MERN stack web and mobile developer and also an
             online instructor on udemy.
           </span>
-        </div>
+        </div> */}
       </div>
       <div className="experience-container">
         <ResumeHeading
@@ -139,12 +147,12 @@ const Resume = (props) => {
           fromDate={"Jan 2020"}
           toDate={"Oct 2021"}
         />
-        <div className="experience-description">
+        {/* <div className="experience-description">
           <span className="resume-description-text">
             Currently working as MERN stack web and mobile developer and also an
             online instructor on udemy.
           </span>
-        </div>
+        </div> */}
       </div>
       <div className="experience-container">
         <ResumeHeading
@@ -153,12 +161,26 @@ const Resume = (props) => {
           fromDate={"Aug 2020"}
           toDate={"Jun 2021"}
         />
-        <div className="experience-description">
+        {/* <div className="experience-description">
           <span className="resume-description-text">
             Currently working as MERN stack web and mobile developer and also an
             online instructor on udemy.
           </span>
-        </div>
+        </div> */}
+      </div>
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"HazaTech"}
+          subHeading={"SOFTWARE ENGINEER INTERN"}
+          fromDate={"Jan 2019"}
+          toDate={"Jan 2020"}
+        />
+        {/* <div className="experience-description">
+          <span className="resume-description-text">
+            Currently working as MERN stack web and mobile developer and also an
+            online instructor on udemy.
+          </span>
+        </div> */}
       </div>
     </div>,
 
@@ -205,7 +227,6 @@ const Resume = (props) => {
         heading="Music"
         description="Listening to soothing music is something i can never compromise with, skimming through classic songs charts is at times the best stress reliever that i can get my hands on."
       />
-     
     </div>,
   ];
 

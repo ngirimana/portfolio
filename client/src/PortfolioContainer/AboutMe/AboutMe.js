@@ -14,21 +14,24 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "I’m quality-oriented software development professional. During work, I'm always an irreplaceable team member. I have experience in building modern web using Node.js and React. In addition to my experience, I have practical knowledge about agile methodology, most used deployment method, unit and integration tests, and using popular tools to connect development teams.",
+      "I am a software engineer with 3+ years of good experience developing large-scale code and working with technical teams to translate business needs into technical products, managing the design, development, testing, and iterations of software built utilizing numerous technologies.",
     highlights: {
       bullets: [
         "Full stack web and mobile development",
         "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State management",
+        "ReactJs and React Native",
+        "NextJs",
+        "Material UI",
+        "Chakra Ui",
+        "TailwindCss",
+        "ContextAPI and Redux and Redux-toolKit for State management",
+        "NodeJs",
+        "NestJS",
         "Building REST API",
-        "Managing database",
+        "SQL",
         "Postgresql",
         "MongoDB",
         "ORM(Sequelize,Mongoose)",
-        "Material UI",
-        "NodeJs",
-        "TailwindCss",
       ],
       heading: "Here are a Few Highlights:",
     },

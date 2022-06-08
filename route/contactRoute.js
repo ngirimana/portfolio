@@ -3,11 +3,12 @@ const nodemailer = require("nodemailer");
 
 router.post("/contact", (req, res) => {
   let data = req.body;
-  if (
+  console.log(
     data.name.length === 0 ||
-    data.email.length === 0 ||
-    data.message.length === 0
-  ) {
+      data.email.length === 0 ||
+      data.message.length === 0
+  );
+  if (data.name.length === 0 ||data.email.length === 0 || data.message.length === 0) {
     return res.json({ msg: "Please Fill All The Fields!" });
   }
 
@@ -37,6 +38,7 @@ router.post("/contact", (req, res) => {
 
   smtpTransporter.sendMail(mailOptions, (error) => {
     try {
+      console.log(error)
       if (error)
         return res.status(400).json({ msg: "Please Fill All The Fields!" });
       res.status(200).json({ msg: "Thank You For Contacting Schadrack." });

@@ -45,7 +45,7 @@ export default function Testimonial(props) {
 
   return (
     <div>
-      <ScreenHeading
+      {/* <ScreenHeading
         title={"Testimonial"}
         subHeading={"What My Client Say About Me"}
       />
@@ -64,7 +64,7 @@ export default function Testimonial(props) {
                       <i className="fa fa-quote-left" />
                       I patronized Schadrack and when He delivered, I honestly
                       fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      he delivers on time.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -204,7 +204,7 @@ export default function Testimonial(props) {
       </section>
       <div className="footer-image">
         <img src={shape} alt="Phot0 not responding" />
-      </div>
+      </div> */}
     </div>
   );
 }
